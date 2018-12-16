@@ -5,7 +5,6 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Cat Friend',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +13,8 @@ module.exports = {
       { name: 'description', content: '' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {type: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700'}
     ]
   },
 
