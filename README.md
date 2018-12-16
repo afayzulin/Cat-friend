@@ -1,6 +1,6 @@
 # CatFriend
 
-> My swell Nuxt.js project
+> My Nuxt.js project - abouts our little friends :)
 
 ## Build Setup
 
