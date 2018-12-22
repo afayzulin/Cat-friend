@@ -14,7 +14,6 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {type: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700'}
     ]
   },
 
@@ -27,6 +26,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~assets/css/normalize.min.css'
   ],
 
   /*

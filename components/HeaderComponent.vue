@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<div id="logo"></div>
+		<div id="cat_friend__logo"></div>
 		<nav>
 			<ul>
 				<li>
@@ -33,7 +33,7 @@
 				<input type="text" name="search">
 				<input value="" type="submit">
 			</form>
-			<div id="cat-jump"></div>
+			<div id="cat_friend__cat-jump"></div>
 		</nav>
 	</header>
 </template>
@@ -51,7 +51,7 @@
 		padding-top: 15px;
 	}
 
-	#logo {
+	#cat_friend__logo {
 		width: 70px;
 		height: 70px;
 		display: inline-block;
@@ -84,7 +84,7 @@
 		display: inline-block;
 	}
 
-	#cat-jump {
+	#cat_friend__cat-jump {
 		background: url(~assets/img/cat-jump.png) no-repeat;;
 	    background-size: cover;
 	    width: 82px;
