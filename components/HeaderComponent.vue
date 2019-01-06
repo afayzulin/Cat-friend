@@ -4,27 +4,27 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="/" title="navigation item">
+					<a href="/" title="HOME">
 						HOME
 					</a>
 				</li>
 				<li>
-					<a href="/" title="navigation item">
+					<a href="/" title="POSTS">
 						POSTS
 					</a>
 				</li>
 				<li>
-					<a href="/" title="navigation item">
+					<a href="/" title="FUNNY PHOTOS">
 						FUNNY PHOTOS
 					</a>
 				</li>
 				<li>
-					<a href="/" title="navigation item">
+					<a href="/" title="HEALTH">
 						HEALTH
 					</a>
 				</li>
 				<li>
-					<a href="/" title="navigation item">
+					<a href="/" title="CONTACTS">
 						CONTACTS
 					</a>
 				</li>
@@ -65,7 +65,7 @@
 		display: inline-block;
 		font-size: 18px;
 		width: calc(100% - 100px);
-		background: #8c8c8c;
+		background: #2f2f2f;
 		border-radius: 20px;
 		color: #fff;
 		position: relative;

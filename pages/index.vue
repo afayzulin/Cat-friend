@@ -15,12 +15,15 @@
         <div class="cat_friend__popular___posts-left cat_friend__block relative">
             <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/most_popular.png">
             <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/five_stars.png">
+            <a title="read more" href="" class="read_more">Read more</a>
             <h2 class="text-center">Do cats love their owners?</h2>
         </div>
 
         <div class="cat_friend__popular___posts-right cat_friend__block relative">
           <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/most_popular.png">
           <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/four_and_half_stars.png">
+          <a title="read more" href="" class="read_more">Read more</a>
+          <h2 class="text-center">Why do cats meow?</h2>
         </div>
       </section>
     </main>
@@ -98,7 +101,7 @@ export default {
 
   .cat_friend__block {
     border-radius: 8px;
-    box-shadow: inset 0px 0px 1px 1px rgba(4,4,5,.15);
+    box-shadow: inset 0px 0px 1px 1px rgba(4,4,5,.5);
     cursor: pointer;
   }
 
@@ -120,5 +123,18 @@ export default {
     position: absolute;
     bottom: 5px;
     right: 5px;
+  }
+
+  .read_more {
+    font-size: 12px;
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+    color: #0046BB;
+    text-decoration: none;
+  }
+
+  .cat_friend__block:hover .read_more {
+    text-decoration: underline;
   }
 </style>
