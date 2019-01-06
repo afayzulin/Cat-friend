@@ -14,6 +14,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Roboto' },
     ]
   },
 
