@@ -13,15 +13,16 @@
         </div>
 
         <div class="cat_friend__popular___posts-left cat_friend__block relative">
-            <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/most_popular.png">
-            <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/five_stars.png">
+            <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/marks/most_popular.png">
+            <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/marks/five_stars.png">
             <a title="read more" href="" class="read_more">Read more</a>
             <h2 class="text-center">Do cats love their owners?</h2>
+            <div class="cat_friend__popular___posts____inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam officiis est incidunt ipsa doloremque repudiandae consequatur. Magni quaerat explicabo perspiciatis rerum asperiores itaque velit minima sunt, esse ipsa quibusdam.</div>
         </div>
 
         <div class="cat_friend__popular___posts-right cat_friend__block relative">
-          <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/most_popular.png">
-          <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/four_and_half_stars.png">
+          <img title="Most viewed article" alt="Most popular" class="most-popular-icon" src="~assets/img/marks/most_popular.png">
+          <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/marks/four_and_half_stars.png">
           <a title="read more" href="" class="read_more">Read more</a>
           <h2 class="text-center">Why do cats meow?</h2>
         </div>
@@ -137,4 +138,12 @@ export default {
   .cat_friend__block:hover .read_more {
     text-decoration: underline;
   }
+
+  .cat_friend__popular___posts____inner-text {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
 </style>
+cat_love.jpg
+cat_meow.jpg

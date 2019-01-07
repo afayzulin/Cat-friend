@@ -55,7 +55,7 @@
 		width: 70px;
 		height: 70px;
 		display: inline-block;
-		background: url(~assets/img/logo.png) no-repeat;
+		background: url(~assets/img/header/logo.png) no-repeat;
 		background-size: contain;
 		vertical-align: middle;
 	}
@@ -85,7 +85,7 @@
 	}
 
 	#cat_friend__cat-jump {
-		background: url(~assets/img/cat-jump.png) no-repeat;;
+		background: url(~assets/img/header/cat-jump.png) no-repeat;;
 	    background-size: cover;
 	    width: 82px;
 	    height: 38px;
@@ -106,7 +106,7 @@
 	#search-form input[type='submit'] {
 		width: 25px;
 		height: 25px;
-		background: url(~assets/img/search.png);
+		background: url(~assets/img/header/search.png);
 		background-size: cover;
 		outline: none;
 		border: none;
