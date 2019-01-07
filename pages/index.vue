@@ -18,6 +18,7 @@
             <a title="read more" href="" class="read_more">Read more</a>
             <h2 class="text-center">Do cats love their owners?</h2>
             <div class="cat_friend__popular___posts____inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam officiis est incidunt ipsa doloremque repudiandae consequatur. Magni quaerat explicabo perspiciatis rerum asperiores itaque velit minima sunt, esse ipsa quibusdam.</div>
+            <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_love.png">
         </div>
 
         <div class="cat_friend__popular___posts-right cat_friend__block relative">
@@ -25,6 +26,8 @@
           <img class="article_raiting" title="Article rating" alt="Four and half star" src="~assets/img/marks/four_and_half_stars.png">
           <a title="read more" href="" class="read_more">Read more</a>
           <h2 class="text-center">Why do cats meow?</h2>
+            <div class="cat_friend__popular___posts____inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam officiis est incidunt ipsa doloremque repudiandae consequatur. Magni quaerat explicabo perspiciatis rerum asperiores itaque velit minima sunt, esse ipsa quibusdam.</div>
+            <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_meow.jpg">
         </div>
       </section>
     </main>
@@ -140,9 +143,17 @@ export default {
   }
 
   .cat_friend__popular___posts____inner-text {
-    width: 80%;
+    width: 92%;
     text-align: center;
     margin: 0 auto;
+    max-height: 90px;
+  }
+
+  .cat_friend__popular___posts____inner-img {
+    width: 44%;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
   }
 </style>
 cat_love.jpg
