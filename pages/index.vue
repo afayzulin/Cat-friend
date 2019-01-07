@@ -147,6 +147,7 @@ export default {
     text-align: center;
     margin: 0 auto;
     max-height: 90px;
+    font-size: 18px;
   }
 
   .cat_friend__popular___posts____inner-img {
