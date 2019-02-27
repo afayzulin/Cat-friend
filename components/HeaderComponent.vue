@@ -4,28 +4,28 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="/" title="HOME">
-						HOME
+					<a href="/">
+						Главная
 					</a>
 				</li>
 				<li>
-					<a href="/" title="POSTS">
-						POSTS
+					<a href="/">
+						Статьи
 					</a>
 				</li>
 				<li>
-					<a href="/" title="FUNNY PHOTOS">
-						FUNNY PHOTOS
+					<a href="/">
+						Смешные фото
 					</a>
 				</li>
 				<li>
-					<a href="/" title="HEALTH">
-						HEALTH
+					<a href="/">
+						Здоровье
 					</a>
 				</li>
 				<li>
-					<a href="/" title="CONTACTS">
-						CONTACTS
+					<a href="/">
+						Контакты
 					</a>
 				</li>
 			</ul>
@@ -118,7 +118,8 @@
 	#search-form input[type='text'] {
 		height: 25px;
 		border-radius: 10px;
-		width: 200px;
-		border:none;
+		width: 160px;
+		border: none;
+		padding: 1px 30px 1px 10px;
 	}
 </style>
