@@ -252,7 +252,7 @@ export default {
     vertical-align: top;
     cursor: pointer;
     padding: 10px;
-    box-shadow: inset 0px 0px 1px 1px rgba(4,4,5,.5);
+    box-shadow: inset 0 0 1px 1px rgba(4,4,5,.5);
     border-radius: 8px;
     text-align: left;
     margin: 0 1.61%;
