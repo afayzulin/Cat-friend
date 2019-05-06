@@ -29,10 +29,10 @@
             <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_love.png">
         </div>
 
-        <div class="cat_friend__popular___posts-right cat_friend__block relative">
+        <div @click="goToPage('/why-cats-meow')" class="cat_friend__popular___posts-right cat_friend__block relative">
           <img alt="Most popular" class="most-popular-icon" src="~assets/img/marks/most_popular.png">
           <img class="article_raiting" alt="Four and half star" src="~assets/img/marks/four_and_half_stars.png">
-          <a href="" class="read_more">[Read more]</a>
+          <a @click.prevent href="/why-cats-meow" title="Почему коты мяукают" class="read_more">[Read more]</a>
           <h2 class="text-center">Почему коты мяукают</h2>
             <div class="cat_friend__popular___posts____inner-text">
               Сложно спутать это характерное "МЯУ" с каким-то другим звуком. Его знают все с детсва, но далеко не каждый
@@ -126,12 +126,21 @@
 import HeaderComponent from '~/components/HeaderComponent.vue'
 import FooterComponent from '~/components/FooterComponent.vue'
 export default {
-  head () {
+  head() {
     return {
       title: 'Cat Friend: Главная страница',
     }
   },
+  data() {
+    return {
 
+    }
+  },
+  methods: {
+    goToPage(page) {
+      window.location.pathname = page;
+    },
+  },
   components: {
     HeaderComponent,
     FooterComponent
@@ -152,22 +161,9 @@ export default {
     margin: 5px 0;
   }
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background: url(~assets/img/main-theme.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   ul {
     padding: 0;
     list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
   }
 
   h1 {

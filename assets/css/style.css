@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: url(~assets/img/main-theme.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
