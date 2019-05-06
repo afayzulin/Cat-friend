@@ -11,7 +11,9 @@
         <div class="cat_friend__about___us____block cat_friend__block relative">
             <h2 class="text-center">О нас</h2>
             <div class="cat_friend__popular___posts____inner-text">
-              Сайт посвященом вопросам здоровья и ухода за котиками. Вы можете найти любую интересующую Вас информацию, воспользовавшись <strong style="font-weight: 600;"><a title="To the search page" href="/search">поиском по сайту <img width="12px;" src="~assets/img/header/search.png"></a></strong>
+              Сайт посвященом вопросам здоровья и ухода за котиками. Вы можете найти любую интересующую Вас информацию,
+              воспользовавшись <strong style="font-weight: 600;"><a title="To the search page" href="/search">поиском по сайту
+              <img width="12px;" src="~assets/img/header/search.png"></a></strong>
             </div>
             <a href="" class="read_more">[Read more]</a>
         </div>
@@ -21,7 +23,9 @@
             <img class="article_raiting" alt="Four and half star" src="~assets/img/marks/five_stars.png">
             <a href="" class="read_more">[Read more]</a>
             <h2 class="text-center">Любят ли кошки своих хозяев</h2>
-            <div class="cat_friend__popular___posts____inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam officiis est incidunt ipsa doloremque repudiandae consequatur. Magni quaerat explicabo perspiciatis rerum asperiores itaque velit minima sunt, esse ipsa quibusdam.</div>
+            <div class="cat_friend__popular___posts____inner-text">Все мы безусловно любим наших мурчащих друзей,
+              но вот любят ли они нас? Как понять - котейка действительно к Вам не равнодушен или просто подлизывается?
+            </div>
             <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_love.png">
         </div>
 
@@ -30,7 +34,10 @@
           <img class="article_raiting" alt="Four and half star" src="~assets/img/marks/four_and_half_stars.png">
           <a href="" class="read_more">[Read more]</a>
           <h2 class="text-center">Почему коты мяукают</h2>
-            <div class="cat_friend__popular___posts____inner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, magnam officiis est incidunt ipsa doloremque repudiandae consequatur. Magni quaerat explicabo perspiciatis rerum asperiores itaque velit minima sunt, esse ipsa quibusdam.</div>
+            <div class="cat_friend__popular___posts____inner-text">
+              Сложно спутать это характерное "МЯУ" с каким-то другим звуком. Его знают все с детсва, но далеко не каждый
+              в курсе что этот звук означает. Давайте же разберемся зачем и когда коошки мяукают.
+            </div>
             <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_meow.jpg">
         </div>
       </section>
@@ -46,7 +53,9 @@
           <div>Автор: Ипполит Тэн</div>
           <br>
           ***
-          <div class="text-dinamic-inner">Кошка и дрессировка – не такие уж несовместимые понятия. Всего за пару дней кошка может выдрессировать кого угодно.</div>
+          <div class="text-dinamic-inner">Кошка и дрессировка – не такие уж несовместимые понятия. Всего за пару дней
+            кошка может выдрессировать кого угодно.
+          </div>
           <div>Автор: Грэхам Купер</div>
           <br>
           ***
@@ -55,11 +64,15 @@
           <br>
           ***
           
-          <div class="text-dinamic-inner">Только кошки знают, как получить пищу без труда, жилище без замка и любовь без треволнений.</div>
+          <div class="text-dinamic-inner">Только кошки знают, как получить пищу без труда, жилище без замка и любовь без
+            треволнений.
+          </div>
           <div>Автор: У. Л. Джордж</div>
           <br>
           ***
-          <div class="text-dinamic-inner">С точки зрения кошки, самое уютное место в доме – это место, на котором в данный момент сидит хозяин.</div>
+          <div class="text-dinamic-inner">С точки зрения кошки, самое уютное место в доме – это место, на котором в
+            данный момент сидит хозяин.
+          </div>
           <span>Автор: неизвестен</span>
         </blockquote>
         <div class="text-center">***</div>
@@ -69,27 +82,36 @@
         <div class="news_title">Рекомендуем к прочтению:</div>
         <div>
           <div class="cat_friend__news___block relative">
-            <h3 class="text-center"><a href="/">Могут ли кошки понимать нашу речь</a></h3>
+            <div class="text-center div-title"><a href="/">Могут ли кошки понимать нашу речь</a></div>
             <img src="~assets/img/index/cat_news.jpg">
-            <div>Кошки легко могут “объяснять” нам свое настроение, издавая до 100 различных звуков. Но понимают ли они то, что мы им говорим, или же просто реагируют на несколько заученных команд?</div>
+            <div>Кошки легко могут “объяснять” нам свое настроение, издавая до 100 различных звуков. Но понимают ли они
+              то, что мы им говорим, или же просто реагируют на несколько заученных команд?
+            </div>
             <a href="" class="read_more">[Read more]</a>
           </div>
           <div class="cat_friend__news___block relative">
-            <h3 class="text-center"><a href="/">Когда и какие прививки делать коту</a></h3>
+            <div class="text-center div-title"><a href="/">Когда и какие прививки делать коту</a></div>
             <img src="~assets/img/index/cat_news2.jpg">
-            <div>Своевременная вакцинация – гарантия того, что животное, если и заболеет, легко перенесет недуг. Давайте рассмотрим, какие прививки нужно делать коту и в какой период подойдет лучше.</div>
+            <div>Своевременная вакцинация – гарантия того, что животное, если и заболеет, легко перенесет недуг. Давайте
+              рассмотрим, какие прививки нужно делать коту и в какой период подойдет лучше.
+            </div>
             <a href="" class="read_more">[Read more]</a>
           </div>
           <div class="cat_friend__news___block relative">
-            <h3 class="text-center"><a href="/">Как понять, что котик приболел</a></h3>
+            <div class="text-center div-title"><a href="/">Как понять, что котик приболел</a></div>
             <img src="~assets/img/index/cat_news4.jpg">
-            <div>Из-за особенностей метаболизма, многие заболевания развиваются стремительно, и порой счет идет буквально на часы. Увы, хозяева не всегда могут это распознать.</div>
+            <div>Из-за особенностей метаболизма, многие заболевания развиваются стремительно, и порой счет идет
+              буквально на часы. Увы, хозяева не всегда могут это распознать.
+            </div>
             <a href="" class="read_more">[Read more]</a>
           </div>
           <div class="cat_friend__news___block relative">
-            <h3 class="text-center"><a href="/">Как ухаживать за маленьким котенком</a></h3>
+            <div class="text-center div-title"><a href="/">Как ухаживать за маленьким котенком</a></div>
             <img src="~assets/img/index/cat_news3.jpg">
-            <div>Кошки легко могут “объяснять” нам свое настроение, издавая до 100 различных звуков. Но понимают ли они то, что мы им говорим, или же просто реагируют на несколько заученных команд?</div>
+            <div>
+              Первые нескольео месяцев самые важные кирпичики в фундаменте здоровья нового члена семьи.
+              Крайне важно знать как правильно заботиться о ушастом комочке и как с ним подружиться.
+            </div>
             <a href="" class="read_more">[Read more]</a>
           </div>
         </div>
@@ -241,8 +263,14 @@ export default {
     background: #e7e7e7;
   }
 
-  .cat_friend__news___block h3 {
+  .cat_friend__news___block .div-title {
     text-transform: uppercase;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
   }
 
   .cat_friend__news___block {
