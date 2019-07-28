@@ -4,7 +4,7 @@
     <main>
       <section id="cat_friend__greeting">
         <h1 style="font-style: italic;">Портал о наших маленьких друзьях</h1>
-        <b>Добро пожаловать на CatFriend!</b>
+        <b><i>Добро пожаловать на CatFriend!</i></b>
       </section>
 
       <section id="cat_friend__content">
@@ -45,32 +45,32 @@
       <section id="more--dinamic-text">
         <div class="text-center">***</div>
         <blockquote>
-          <div class="text-dinamic-inner">Чужая душа – потемки, ну а кошачья – тем более.</div>
+          <div class="text-dynamic-inner">Чужая душа – потемки, ну а кошачья – тем более.</div>
           <div>Автор: Антон Чехов</div>
           <br>
           ***
-          <div class="text-dinamic-inner">Я изучил многих философов и многих кошек. Мудрость кошек неизмеримо выше.</div>
+          <div class="text-dynamic-inner">Я изучил многих философов и многих кошек. Мудрость кошек неизмеримо выше.</div>
           <div>Автор: Ипполит Тэн</div>
           <br>
           ***
-          <div class="text-dinamic-inner">Кошка и дрессировка – не такие уж несовместимые понятия. Всего за пару дней
+          <div class="text-dynamic-inner">Кошка и дрессировка – не такие уж несовместимые понятия. Всего за пару дней
             кошка может выдрессировать кого угодно.
           </div>
           <div>Автор: Грэхам Купер</div>
           <br>
           ***
-          <div class="text-dinamic-inner">Коты не спрашивают, они просто берут все, что им надо.</div>
+          <div class="text-dynamic-inner">Коты не спрашивают, они просто берут все, что им надо.</div>
           <div>Автор: Кот Гарфилд</div>
           <br>
           ***
           
-          <div class="text-dinamic-inner">Только кошки знают, как получить пищу без труда, жилище без замка и любовь без
+          <div class="text-dynamic-inner">Только кошки знают, как получить пищу без труда, жилище без замка и любовь без
             треволнений.
           </div>
           <div>Автор: У. Л. Джордж</div>
           <br>
           ***
-          <div class="text-dinamic-inner">С точки зрения кошки, самое уютное место в доме – это место, на котором в
+          <div class="text-dynamic-inner">С точки зрения кошки, самое уютное место в доме – это место, на котором в
             данный момент сидит хозяин.
           </div>
           <span>Автор: неизвестен</span>
@@ -131,11 +131,6 @@ export default {
       title: 'Cat Friend: Главная страница',
     }
   },
-  data() {
-    return {
-
-    }
-  },
   methods: {
     goToPage(page) {
       window.location = page;
@@ -148,7 +143,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   blockquote {
       padding: 10px 10px 10px 90px;
       margin: 20px 0 20px 0px;
@@ -157,27 +152,8 @@ export default {
       background: url(~assets/img/index/quote.png) top left no-repeat;
   }
   
-  .text-dinamic-inner {
+  .text-dynamic-inner {
     margin: 5px 0;
-  }
-
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-
-  h1 {
-    margin: 25px 0 0 0;
-  }
-
-  h2 {
-    text-transform: uppercase;
-    font-size: 18px;
-    margin: 23px 0 17px 0;
-  }
-
-  section {
-    margin: 50px 0;
   }
 
   #cat_friend__content {
@@ -240,9 +216,8 @@ export default {
   }
 
   .cat_friend__popular___posts____inner-text {
-    width: 92%;
-    text-align: center;
     margin: 0 auto;
+    padding: 0 15px;
     max-height: 90px;
     font-size: 18px;
   }
@@ -252,11 +227,6 @@ export default {
     position: absolute;
     bottom: 5px;
     left: 15px;
-  }
-
-  .hr {
-    height: 3px;
-    background: #e7e7e7;
   }
 
   .cat_friend__news___block .div-title {
@@ -294,4 +264,3 @@ export default {
     border-radius: 8px;
   }
 </style>
-<!-- TODO - adaptivnost dlya news block; adaptivnost full mob, footer, rubrika: nedavnie publikacii, dobavit novisti kotomira -->

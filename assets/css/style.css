@@ -6,7 +6,40 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 1.21;
     background: url(~assets/img/main-theme.gif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    margin: 25px 0 0 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 23px 0 17px 0;
+}
+
+section {
+    margin: 50px 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.hr {
+    height: 3px;
+    background: #e7e7e7;
+}
+
+.cat_friend__article___content div {
+    margin: 15px 0;
 }
