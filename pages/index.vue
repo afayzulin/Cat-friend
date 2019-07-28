@@ -15,13 +15,13 @@
               воспользовавшись <strong style="font-weight: 600;"><a title="To the search page" href="/search">поиском по сайту
               <img width="12px;" src="~assets/img/header/search.png"></a></strong>
             </div>
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
         </div>
 
         <div class="cat_friend__popular___posts-left cat_friend__block relative">
             <img alt="Most popular" class="most-popular-icon" src="~assets/img/marks/most_popular.png">
             <img class="article_raiting" alt="Four and half star" src="~assets/img/marks/five_stars.png">
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
             <h2 class="text-center">Любят ли кошки своих хозяев</h2>
             <div class="cat_friend__popular___posts____inner-text">Все мы безусловно любим наших мурчащих друзей,
               но вот любят ли они нас? Как понять - котейка действительно к Вам не равнодушен или просто подлизывается?
@@ -29,10 +29,10 @@
             <img class="cat_friend__popular___posts____inner-img" src="~assets/img/index/cat_love.png">
         </div>
 
-        <div @click="goToPage('/why-cats-meow')" class="cat_friend__popular___posts-right cat_friend__block relative">
+        <div @click="goToPage($store.state.links.homeLink+$store.state.links.whyCatsMeow)" class="cat_friend__popular___posts-right cat_friend__block relative">
           <img alt="Most popular" class="most-popular-icon" src="~assets/img/marks/most_popular.png">
           <img class="article_raiting" alt="Four and half star" src="~assets/img/marks/four_and_half_stars.png">
-          <a @click.prevent href="/why-cats-meow" title="Почему коты мяукают" class="read_more">[Read more]</a>
+          <a @click.prevent :href="$store.state.links.homeLink+$store.state.links.whyCatsMeow" title="Почему коты мяукают" class="read_more">[Подробнее]</a>
           <h2 class="text-center">Почему коты мяукают</h2>
             <div class="cat_friend__popular___posts____inner-text">
               Сложно спутать это характерное "МЯУ" с каким-то другим звуком. Его знают все с детсва, но далеко не каждый
@@ -87,7 +87,7 @@
             <div>Кошки легко могут “объяснять” нам свое настроение, издавая до 100 различных звуков. Но понимают ли они
               то, что мы им говорим, или же просто реагируют на несколько заученных команд?
             </div>
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
           </div>
           <div class="cat_friend__news___block relative">
             <div class="text-center div-title"><a href="/">Когда и какие прививки делать коту</a></div>
@@ -95,7 +95,7 @@
             <div>Своевременная вакцинация – гарантия того, что животное, если и заболеет, легко перенесет недуг. Давайте
               рассмотрим, какие прививки нужно делать коту и в какой период подойдет лучше.
             </div>
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
           </div>
           <div class="cat_friend__news___block relative">
             <div class="text-center div-title"><a href="/">Как понять, что котик приболел</a></div>
@@ -103,7 +103,7 @@
             <div>Из-за особенностей метаболизма, многие заболевания развиваются стремительно, и порой счет идет
               буквально на часы. Увы, хозяева не всегда могут это распознать.
             </div>
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
           </div>
           <div class="cat_friend__news___block relative">
             <div class="text-center div-title"><a href="/">Как ухаживать за маленьким котенком</a></div>
@@ -112,7 +112,7 @@
               Первые нескольео месяцев самые важные кирпичики в фундаменте здоровья нового члена семьи.
               Крайне важно знать как правильно заботиться о ушастом комочке и как с ним подружиться.
             </div>
-            <a href="" class="read_more">[Read more]</a>
+            <a href="" class="read_more">[Подробнее]</a>
           </div>
         </div>
       </section>
@@ -138,7 +138,7 @@ export default {
   },
   methods: {
     goToPage(page) {
-      window.location.pathname = page;
+      window.location = page;
     },
   },
   components: {

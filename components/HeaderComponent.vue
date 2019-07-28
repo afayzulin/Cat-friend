@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<div id="cat_friend__logo"></div>
+		<div @click="goToPage($store.state.links.homeLink)" id="cat_friend__logo"><a :href="$store.state.links.homeLink">CatFriend</a></div>
 		<nav>
 			<ul>
 				<li>
@@ -42,7 +42,12 @@
 	export default {
 		data () {
 			return {}
-		}
+		},
+		methods: {
+			goToPage(page) {
+				window.location = page;
+			},
+		},
 	}
 </script>
 
@@ -58,6 +63,11 @@
 		background: url(~assets/img/header/logo.png) no-repeat;
 		background-size: contain;
 		vertical-align: middle;
+		cursor: pointer;
+	}
+
+	#cat_friend__logo a {
+		font-size: 0;
 	}
 
 	nav {
