@@ -80,7 +80,7 @@
 
       <section id="news">
         <div class="news_title">Рекомендуем к прочтению:</div>
-        <div>
+        <div class="cat_friend__news___block-wrapper">
           <div class="cat_friend__news___block relative">
             <div class="text-center div-title"><a href="/">Могут ли кошки понимать нашу речь</a></div>
             <img src="~assets/img/index/cat_news.jpg">
@@ -239,17 +239,19 @@ export default {
     font-weight: bold;
   }
 
+  .cat_friend__news___block-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .cat_friend__news___block {
     font-size: 17px;
     width: 20%;
-    display: inline-block;
-    vertical-align: top;
     cursor: pointer;
     padding: 10px;
     box-shadow: inset 0 0 1px 1px rgba(4,4,5,.5);
     border-radius: 8px;
     text-align: left;
-    margin: 0 1.61%;
   }
 
   .news_title {

@@ -1,10 +1,10 @@
 <template>
 	<header>
-		<div @click="goToPage($store.state.links.homeLink)" id="cat_friend__logo"><a :href="$store.state.links.homeLink">CatFriend</a></div>
+		<div @click="goToPage($store.state.links.homeLink)" id="cat_friend__logo"></div>
 		<nav>
 			<ul>
 				<li>
-					<a href="/">
+					<a :href="$store.state.links.homeLink">
 						Главная
 					</a>
 				</li>
@@ -64,10 +64,6 @@
 		background-size: contain;
 		vertical-align: middle;
 		cursor: pointer;
-	}
-
-	#cat_friend__logo a {
-		font-size: 0;
 	}
 
 	nav {
